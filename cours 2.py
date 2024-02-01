@@ -105,13 +105,13 @@ class Violon(Instruments_cordes):
         print("Shut up, I am perfect.")
 
 
-sanity = Instruments_cordes("5 strings", "METAL", "I MADE IT MYSELF")
+bonjour = Instruments_cordes("5 strings", "METAL", "I MADE IT MYSELF")
 red = Guitare("8 strings", "rock", "stratocaster", "4 ans", "metallica")
 suzie = Violon("4 strings", "folk metal", "idk man", "wood")
 suzanna = Instruments_cordes("5 strings", "folk metal", "idk man")
 
-sanity.level()
-sanity.info()
+bonjour.level()
+bonjour.info()
 print("----------------")
 red.info()
 red.reinfo()
